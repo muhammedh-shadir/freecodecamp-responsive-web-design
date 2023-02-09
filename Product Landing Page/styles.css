@@ -1,0 +1,176 @@
+* , ::after, ::after{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    padding: 0;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+    z-index: 999;
+}
+
+#header-img {
+    max-width: 300px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list li {
+    display: block;
+    margin: 0 3em;
+}
+
+.nav-list li > a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+#banner-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#banner-section input {
+    display: block;
+    margin: 1em auto;
+} 
+
+#banner-section input[type="email"] {
+    padding: .25em;
+    width: 15%;
+}
+
+#banner-section input[type="submit"] {
+    background-color: #f1c40f;
+    padding: .25em 1.25em;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: 1px solid #f1c40f;
+}
+
+#features-section{
+    padding: 3em;
+    margin-bottom: 4em;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.feature {
+    margin-bottom: 4.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.feature .icon {
+    color: darkorange;
+} 
+
+.feature .desc {
+    position: absolute;
+    left: 200px;
+}
+
+.feature h2, p {
+    margin: 0;
+}
+
+#how_it_works {
+    margin: 0 auto 3em;
+    width: 100%;
+    max-width: 960px;
+
+}
+
+iframe {
+    margin: 0 auto !important;
+    display: block;
+}
+
+#pricing {
+    margin: 0 auto 3em;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing table {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    margin: .5em;
+}
+
+#pricing table th     {
+    background-color: #ddd;
+    padding: .25em 0;
+}
+
+#pricing button {
+    padding: 1em 2em;
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+    margin: 1em auto;
+}
+
+#footer {
+    margin: 0 auto 3em;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ddd;
+    padding: 2em 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+#footer .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: .5em;
+    font-size: 1rem;
+}
+#footer p {
+    padding: 0 .5em;
+    font-size: .925rem;
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        width: 100%;
+    }
+}

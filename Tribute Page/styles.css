@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+    /* font-size: 1.6rem; */
+    color: #333;
+}
+
+#main {
+    background: #eee;
+    border-radius: .325em;
+    margin: 2.75em .5em;
+    padding: .975em;
+}
+
+#title {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+#img-div {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1em auto;
+}
+
+#tribute-info {
+    padding: 3em;
+}
+
+#headline {
+    margin-bottom: 2em;
+}
+
+ul {
+    text-align: left;
+    width: 41%;
+    margin: 0 auto;
+}
+
+ul > li {
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+    font-size: .925rem;
+    line-height: 1.75;
+}
+
+.year {
+    font-weight: bold;
+}
+
+blockquote {
+    text-align: left;
+    width: 41%;
+    margin: 0 auto 2em;
+    line-height: 2;
+}
+
+blockquote p, cite {
+    font-style: italic;
+    margin-left: 1em;
+}
+
+section h3 {
+    margin-bottom: 0;
+}
